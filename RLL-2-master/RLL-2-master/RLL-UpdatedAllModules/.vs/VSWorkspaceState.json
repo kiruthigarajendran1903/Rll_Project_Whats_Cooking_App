@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CookingAppAPI",
+    "\\CookingAppAPI\\CookingAppMVC",
+    "\\CookingAppAPI\\CookingAppMVC\\Models"
+  ],
+  "SelectedNode": "\\CookingAppAPI\\CookingAppMVC\\Models\\Recipe.cs",
+  "PreviewInSolutionExplorer": false
+}

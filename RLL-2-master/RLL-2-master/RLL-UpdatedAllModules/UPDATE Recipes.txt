@@ -1,0 +1,50 @@
+UPDATE Recipes
+SET ImageURL = NULL
+WHERE ID = 2; 
+
+UPDATE Recipes
+SET ImageURL = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo9gkCKOn2Wac8cTfuHlC9tuIGnz4sSRbapijsCZC5FxnIR21BFGzW1KGghVr0wIriK-M&usqp=CAU'
+WHERE ID = 2;
+
+UPDATE Recipes
+SET ImageURL = 'https://somethingaboutsandwiches.com/wp-content/uploads/2020/11/roasted-vegetable-salad-500x375.jpg'
+WHERE ID = 3;
+
+UPDATE Recipes
+SET ImageURL = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4F2d2qi-CYgIReRbj40tvTI_XPi2wBS4Bog&usqp=CAU'
+WHERE ID = 4;
+
+UPDATE Recipes
+SET ImageURL = 'https://cdn.loveandlemons.com/wp-content/uploads/2023/01/mushroom-risotto.jpg'
+WHERE ID = 5; 
+
+UPDATE Recipes
+SET ImageURL = 'https://dinnerthendessert.com/wp-content/uploads/2021/05/Chicken-Alfredo-Pasta-1x1-1.jpg'
+WHERE ID = 6; 
+
+UPDATE Recipes
+SET ImageURL = 'https://cdn.shopify.com/s/files/1/0093/2537/9669/files/Grilled_Salmon_2048x2048.jpg?v=1633723034'
+WHERE ID = 7; 
+
+UPDATE Recipes
+SET ImageURL = 'https://iamhomesteader.com/wp-content/uploads/2022/04/birria-taco-2.jpg'
+WHERE ID = 8; 
+
+UPDATE Recipes
+SET ImageURL = 'https://www.eatingwell.com/thmb/-MIaHQwHjoa-zfmoaiIQsvViW1g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-shrimp-scampi-with-zucchini-noodles-step-11-36aca440659b49739c229e4e855eecd3.jpg'
+WHERE ID = 9; 
+
+UPDATE Recipes
+SET ImageURL = 'https://www.barossafinefoods.com.au/glide-cache/containers/main/2020_bff_porkribs_bbq_website-2.jpg/03d880f2ca84b83fdeb147548e7d9b12.jpg'
+WHERE ID = 10; 
+
+
+
+SELECT TOP (1000) [ID]
+      ,[Name]
+      ,[Description]
+      ,[Ingredients]
+      ,[Category]
+      ,[SubmissionDate]
+      ,[ImageURL]
+  FROM [Rllproject].[dbo].[Recipes]
